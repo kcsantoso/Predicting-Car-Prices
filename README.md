@@ -1,1 +1,7 @@
-# Predicting-Car-Prices
+# Predicting-Car-Prices- March 2021
+
+This project was completed as part of the Statistics 101A- Introduction to Data Analysis and Regression course. The KaggleProject.Rmd and KaggleProject.pdf files contains some of the code used to generate the results discussed in the PDF report. The project was a Kaggle competition within the students of the course to see who could get the highest accuracy in predictions, and the code was graded based on both accuracy and complexity. The code in this repository produced a high ranking score in the competition.
+
+The goal of the project was to determine which variables are most significant in predicting the price of an automobile in the American market and what the most accurate and effective way to use these variables to predict the price of a given car is. A multiple linear regression model was used to achieve this, which was trained with a dataset with observations of car prices and other information about the car’s various other characteristics, and takes in information about a car’s characteristic and outputs a numerical value representing the car’s price. The goal of the project was to increase the accuracy rate of this multiple linear regression model as much as possible while keeping model complexity low.
+
+The R-Squared value of my training model 0.9305 and the Adjusted R-Squared value of the training model was 0.929. The R-Squared of the testing model, or the R-Squared value reported on the Kaggle leaderboard, was 0.95685. The total number of predictors of the final model was 5, and the total number of betas including β0 was 23. Using the R command “UseExtractAIC(model,k=log(n)),” it was found that the BIC score of the multiple linear regression model was 253.3727.
